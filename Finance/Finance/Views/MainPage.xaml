@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Finance.ViewModels"
+             xmlns:behaviors="clr-namespace:Finance.Views.Behaviors"
+             mc:Ignorable="d"
+             x:Class="Finance.Views.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:MainVM x:Key="vm"/>
+            <Style TargetType="Label" x:Key="smallTitleLabel">
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{StaticResource darkColor}"/>
+            </Style>
+            <Style TargetType="Label" x:Key="normalLabel">
+                <Setter Property="TextColor" Value="{StaticResource darkGrayColor}"/>
+                <Setter Property="FontSize" Value="12"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ListView BindingContext="{StaticResource vm}"
+                  SeparatorVisibility="None"
+                  HasUnevenRows="True"
+                  ItemsSource="{Binding Blog.Channel.Items}">
+            <ListView.Behaviors>
+                <behaviors:ListViewBehavior/>
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="10"
+                               Padding="0"
+                               Margin="10">
+                            <StackLayout>
+                                <Image Source="{Binding Enclosure.Url}"
+                                       HeightRequest="200"
+                                       Aspect="AspectFill"/>
+                                <Label Text="{Binding Title}"
+                                       Margin="20,0"
+                                       Style="{StaticResource smallTitleLabel}"/>
+
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

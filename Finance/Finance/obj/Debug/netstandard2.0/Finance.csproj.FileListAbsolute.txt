@@ -1,0 +1,14 @@
+C:\Users\saran\source\repos\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.deps.json
+C:\Users\saran\source\repos\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.dll
+C:\Users\saran\source\repos\Finance\Finance\Finance\bin\Debug\netstandard2.0\ref\Finance.dll
+C:\Users\saran\source\repos\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.pdb
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.csprojAssemblyReference.cache
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.AssemblyInfoInputs.cache
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.AssemblyInfo.cs
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.dll
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\ref\Finance.dll
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.pdb
+C:\Users\saran\source\repos\Finance\Finance\Finance\obj\Debug\netstandard2.0\Views\PostPage.xaml.g.cs
